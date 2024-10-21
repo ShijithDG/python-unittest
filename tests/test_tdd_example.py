@@ -1,6 +1,8 @@
-from src.tdd_example import TDDExample
 
-tdd_example_instance = TDDExample()
+from src import tdd_example
+
+
+tdd_example_instance = tdd_example.TDDExample()
 
 def test_reverse_string():
     text = 'foobar'
